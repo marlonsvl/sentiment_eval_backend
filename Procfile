@@ -1,1 +1,1 @@
-web: gunicorn sentiment_eval_backend.wsgi
+web: gunicorn sentiment_eval.wsgi
