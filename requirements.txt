@@ -1,0 +1,11 @@
+Django==5.2
+djangorestframework==3.16.1
+django-cors-headers==4.7.0
+django-filter==2.5.1
+psycopg2-binary==2.9.10
+python-decouple==3.8
+pandas==2.3.2
+numpy==2.3.2
+openpyxl==3.1.5
+Pillow==11.3.0
+gunicorn==23.0.0
