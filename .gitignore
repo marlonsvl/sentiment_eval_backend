@@ -21,7 +21,7 @@ wheels/
 MANIFEST
 
 # Django
-*.log
+#*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -36,7 +36,7 @@ env.bak/
 venv.bak/
 
 # Media files
-media/
+#media/
 staticfiles/
 
 # IDE
