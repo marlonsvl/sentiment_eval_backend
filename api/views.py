@@ -14,6 +14,7 @@ from rest_framework.permissions import IsAuthenticated  # Added import
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import serializers
 import pandas as pd
 import logging
 from django.utils import timezone
@@ -241,6 +242,10 @@ class HumanEvaluationViewSet(viewsets.ModelViewSet):
     def get_serializer_class(self):
         if self.action == 'create':
             return HumanEvaluationCreateSerializer
+        elif self.action in ['update', 'partial_update']:
+            return HumanEvaluationUpdateSerializer  # Use the new update serializer
+        elif self.action in ['list', 'retrieve', 'my_evaluations']:
+            return HumanEvaluationDetailSerializer
         return HumanEvaluationSerializer
 
     def perform_create(self, serializer):
@@ -313,6 +318,66 @@ class HumanEvaluationViewSet(viewsets.ModelViewSet):
             return 0
         
         return round((user_evaluations / total_sentences) * 100, 2)
+    
+    def perform_update(self, serializer):
+        # Ensure user can only update their own evaluations
+        if serializer.instance.evaluator != self.request.user:
+            raise Response({'error': 'You can only update your own evaluations'}, status=status.HTTP_401_UNAUTHORIZED)
+        
+        serializer.save()
+        # Update session activity timestamp
+        try:
+            session = EvaluationSession.objects.filter(
+                evaluator=self.request.user,
+                is_active=True
+            ).latest('started_at')
+            session.last_activity = timezone.now()
+            session.save()
+        except EvaluationSession.DoesNotExist:
+            pass
+    
+    @action(detail=False, methods=['get'])
+    def my_evaluations(self, request):
+        """Get all evaluations made by the current user for editing"""
+        user_evaluations = self.get_queryset().select_related(
+            'sentence__review'
+        ).order_by('-created_at')
+        
+        page = self.paginate_queryset(user_evaluations)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+        
+        serializer = self.get_serializer(user_evaluations, many=True)
+        return Response(serializer.data)
+
+class HumanEvaluationDetailSerializer(serializers.ModelSerializer):
+    """Detailed serializer for human evaluations with nested sentence data"""
+    sentence = SentenceEvaluationDetailSerializer(read_only=True)
+    evaluator_name = serializers.CharField(source='evaluator.username', read_only=True)
+    
+    class Meta:
+        model = HumanEvaluation
+        fields = [
+            'id', 'sentence', 'evaluator', 'evaluator_name',
+            'best_model', 'alternative_solution', 'notes',
+            'evaluation_time_seconds', 'created_at', 'updated_at'
+        ]
+
+class HumanEvaluationUpdateSerializer(serializers.ModelSerializer):
+    """Serializer for updating evaluations - accepts update data, returns detailed response"""
+    
+    class Meta:
+        model = HumanEvaluation
+        fields = [
+            'best_model', 'alternative_solution', 'notes', 'evaluation_time_seconds'
+        ]
+    
+    def to_representation(self, instance):
+        """Use detailed serializer for the response"""
+        return HumanEvaluationDetailSerializer(instance, context=self.context).data
+
+
 
 class EvaluationSessionViewSet(viewsets.ModelViewSet):
     """ViewSet for evaluation sessions"""

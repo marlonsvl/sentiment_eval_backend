@@ -2868,3 +2868,391 @@ WARNING 2025-08-29 22:55:22,062 basehttp 24976 123145481494528 "GET /api/ HTTP/1
 WARNING 2025-08-29 22:55:22,063 basehttp 24976 123145582231552 "GET /favicon.ico HTTP/1.1" 404 4348
 WARNING 2025-08-29 22:55:22,064 basehttp 24976 123145548652544 "GET /apple-touch-icon.png HTTP/1.1" 404 4375
 INFO 2025-08-30 01:25:13,922 autoreload 29426 140704507862912 Watching for file changes with StatReloader
+INFO 2025-09-12 21:10:19,207 autoreload 34193 140704502378368 Watching for file changes with StatReloader
+INFO 2025-09-12 21:21:03,926 basehttp 34193 123145530208256 "GET /api HTTP/1.1" 301 0
+WARNING 2025-09-12 21:21:03,942 log 34193 123145546997760 Unauthorized: /api/
+WARNING 2025-09-12 21:21:03,947 basehttp 34193 123145546997760 "GET /api/ HTTP/1.1" 401 58
+WARNING 2025-09-12 21:21:04,066 log 34193 123145563787264 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2025-09-12 21:21:04,067 basehttp 34193 123145563787264 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:04,073 log 34193 123145580576768 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2025-09-12 21:21:04,073 basehttp 34193 123145580576768 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:04,082 log 34193 123145597366272 Not Found: /apple-touch-icon.png
+WARNING 2025-09-12 21:21:04,083 log 34193 123145614155776 Not Found: /favicon.ico
+WARNING 2025-09-12 21:21:04,084 basehttp 34193 123145614155776 "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:04,085 basehttp 34193 123145597366272 "GET /apple-touch-icon.png HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:04,201 log 34193 123145546997760 Not Found: /favicon.ico
+WARNING 2025-09-12 21:21:04,202 basehttp 34193 123145546997760 "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:04,366 log 34193 123145563787264 Not Found: /apple-touch-icon.png
+WARNING 2025-09-12 21:21:04,366 basehttp 34193 123145563787264 "GET /apple-touch-icon.png HTTP/1.1" 404 179
+INFO 2025-09-12 21:21:12,283 basehttp 34193 123145546997760 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-12 21:21:16,138 basehttp 34193 123145546997760 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4201
+WARNING 2025-09-12 21:21:16,159 log 34193 123145546997760 Not Found: /static/admin/css/base.css
+WARNING 2025-09-12 21:21:16,160 basehttp 34193 123145546997760 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:16,173 log 34193 123145530208256 Not Found: /static/admin/css/dark_mode.css
+WARNING 2025-09-12 21:21:16,174 basehttp 34193 123145530208256 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:16,178 log 34193 123145546997760 Not Found: /static/admin/css/responsive.css
+WARNING 2025-09-12 21:21:16,180 log 34193 123145630945280 Not Found: /static/admin/js/theme.js
+WARNING 2025-09-12 21:21:16,182 log 34193 123145647734784 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2025-09-12 21:21:16,185 log 34193 123145664524288 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2025-09-12 21:21:16,185 log 34193 123145681313792 Not Found: /static/admin/css/login.css
+WARNING 2025-09-12 21:21:16,186 basehttp 34193 123145546997760 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:16,187 basehttp 34193 123145630945280 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:16,187 basehttp 34193 123145664524288 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:16,188 basehttp 34193 123145647734784 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:16,188 basehttp 34193 123145681313792 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2025-09-12 21:21:29,653 basehttp 34193 123145546997760 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-12 21:21:29,682 basehttp 34193 123145630945280 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4201
+WARNING 2025-09-12 21:21:29,691 log 34193 123145647734784 Not Found: /static/admin/css/base.css
+WARNING 2025-09-12 21:21:29,692 basehttp 34193 123145647734784 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:29,694 log 34193 123145664524288 Not Found: /static/admin/css/dark_mode.css
+WARNING 2025-09-12 21:21:29,694 basehttp 34193 123145664524288 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:29,696 log 34193 123145681313792 Not Found: /static/admin/js/theme.js
+WARNING 2025-09-12 21:21:29,697 log 34193 123145530208256 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2025-09-12 21:21:29,698 basehttp 34193 123145681313792 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:29,698 basehttp 34193 123145530208256 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:29,704 log 34193 123145546997760 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2025-09-12 21:21:29,707 basehttp 34193 123145546997760 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:29,712 log 34193 123145630945280 Not Found: /static/admin/css/login.css
+WARNING 2025-09-12 21:21:29,713 basehttp 34193 123145630945280 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:29,717 log 34193 123145647734784 Not Found: /static/admin/css/responsive.css
+WARNING 2025-09-12 21:21:29,717 basehttp 34193 123145647734784 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+INFO 2025-09-12 21:21:36,608 basehttp 34193 123145664524288 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4369
+WARNING 2025-09-12 21:21:36,617 log 34193 123145681313792 Not Found: /static/admin/css/base.css
+WARNING 2025-09-12 21:21:36,618 log 34193 123145530208256 Not Found: /static/admin/css/dark_mode.css
+WARNING 2025-09-12 21:21:36,619 basehttp 34193 123145530208256 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:36,619 basehttp 34193 123145681313792 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:36,624 log 34193 123145546997760 Not Found: /static/admin/js/theme.js
+WARNING 2025-09-12 21:21:36,630 log 34193 123145630945280 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2025-09-12 21:21:36,633 log 34193 123145647734784 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2025-09-12 21:21:36,637 log 34193 123145664524288 Not Found: /static/admin/css/login.css
+WARNING 2025-09-12 21:21:36,637 basehttp 34193 123145546997760 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:36,641 basehttp 34193 123145630945280 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:36,646 log 34193 123145681313792 Not Found: /static/admin/css/responsive.css
+WARNING 2025-09-12 21:21:36,648 basehttp 34193 123145664524288 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:36,650 basehttp 34193 123145647734784 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2025-09-12 21:21:36,652 basehttp 34193 123145681313792 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+INFO 2025-09-12 22:17:23,443 basehttp 34193 123145563787264 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-12 22:17:24,029 basehttp 34193 123145563787264 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:17:24,117 basehttp 34193 123145563787264 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:17:24,587 basehttp 34193 123145580576768 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 174412
+INFO 2025-09-12 22:17:25,175 basehttp 34193 123145580576768 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 177560
+WARNING 2025-09-12 22:17:40,974 log 34193 123145530744832 Not Found: /api/api/evaluations/my_evaluations/
+WARNING 2025-09-12 22:17:40,975 basehttp 34193 123145530744832 "GET /api/api/evaluations/my_evaluations/?page=1 HTTP/1.1" 404 179
+WARNING 2025-09-12 22:17:48,071 log 34193 123145530744832 Not Found: /api/api/evaluations/my_evaluations/
+WARNING 2025-09-12 22:17:48,072 basehttp 34193 123145530744832 "GET /api/api/evaluations/my_evaluations/?page=1 HTTP/1.1" 404 179
+INFO 2025-09-12 22:19:23,141 basehttp 34193 123145547534336 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-09-12 22:19:23,268 basehttp 34193 123145547534336 "GET /admin/ HTTP/1.1" 200 14947
+WARNING 2025-09-12 22:19:23,383 log 34193 123145547534336 Not Found: /static/admin/css/base.css
+WARNING 2025-09-12 22:19:23,387 log 34193 123145530744832 Not Found: /static/admin/css/dark_mode.css
+WARNING 2025-09-12 22:19:23,390 basehttp 34193 123145547534336 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:23,391 basehttp 34193 123145530744832 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:23,399 log 34193 123145564323840 Not Found: /static/admin/js/theme.js
+WARNING 2025-09-12 22:19:23,405 log 34193 123145581113344 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2025-09-12 22:19:23,408 log 34193 123145597902848 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2025-09-12 22:19:23,410 log 34193 123145547534336 Not Found: /static/admin/css/responsive.css
+WARNING 2025-09-12 22:19:23,412 log 34193 123145614692352 Not Found: /static/admin/css/dashboard.css
+WARNING 2025-09-12 22:19:23,413 basehttp 34193 123145564323840 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:23,414 basehttp 34193 123145581113344 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:23,414 basehttp 34193 123145597902848 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:23,415 basehttp 34193 123145547534336 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:23,424 basehttp 34193 123145614692352 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+INFO 2025-09-12 22:19:27,407 basehttp 34193 123145564323840 "GET /admin/core/humanevaluation/ HTTP/1.1" 200 17517
+WARNING 2025-09-12 22:19:27,423 log 34193 123145581113344 Not Found: /static/admin/css/base.css
+WARNING 2025-09-12 22:19:27,436 log 34193 123145547534336 Not Found: /static/admin/js/theme.js
+WARNING 2025-09-12 22:19:27,439 log 34193 123145614692352 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2025-09-12 22:19:27,449 basehttp 34193 123145614692352 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,440 log 34193 123145597902848 Not Found: /static/admin/css/dark_mode.css
+WARNING 2025-09-12 22:19:27,448 log 34193 123145564323840 Not Found: /static/admin/css/changelists.css
+WARNING 2025-09-12 22:19:27,446 log 34193 123145530744832 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2025-09-12 22:19:27,452 basehttp 34193 123145597902848 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,454 basehttp 34193 123145581113344 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,454 basehttp 34193 123145547534336 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,455 basehttp 34193 123145530744832 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,455 basehttp 34193 123145564323840 "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,469 log 34193 123145547534336 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2025-09-12 22:19:27,470 basehttp 34193 123145547534336 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,473 log 34193 123145564323840 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2025-09-12 22:19:27,475 log 34193 123145614692352 Not Found: /static/admin/js/jquery.init.js
+WARNING 2025-09-12 22:19:27,478 log 34193 123145597902848 Not Found: /static/admin/js/core.js
+WARNING 2025-09-12 22:19:27,479 log 34193 123145530744832 Not Found: /static/admin/js/actions.js
+WARNING 2025-09-12 22:19:27,482 log 34193 123145547534336 Not Found: /static/admin/js/urlify.js
+WARNING 2025-09-12 22:19:27,482 basehttp 34193 123145597902848 "GET /static/admin/js/core.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,483 basehttp 34193 123145614692352 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,483 basehttp 34193 123145564323840 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,484 basehttp 34193 123145530744832 "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,485 basehttp 34193 123145547534336 "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,487 log 34193 123145614692352 Not Found: /static/admin/js/prepopulate.js
+WARNING 2025-09-12 22:19:27,490 log 34193 123145597902848 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2025-09-12 22:19:27,492 log 34193 123145564323840 Not Found: /static/admin/js/filters.js
+WARNING 2025-09-12 22:19:27,495 log 34193 123145530744832 Not Found: /static/admin/css/responsive.css
+WARNING 2025-09-12 22:19:27,497 basehttp 34193 123145564323840 "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,497 basehttp 34193 123145597902848 "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,498 basehttp 34193 123145530744832 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,499 basehttp 34193 123145614692352 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,504 log 34193 123145547534336 Not Found: /static/admin/img/search.svg
+WARNING 2025-09-12 22:19:27,504 basehttp 34193 123145547534336 "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,510 log 34193 123145564323840 Not Found: /static/admin/img/icon-yes.svg
+WARNING 2025-09-12 22:19:27,511 basehttp 34193 123145564323840 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:27,515 log 34193 123145597902848 Not Found: /static/admin/img/icon-no.svg
+WARNING 2025-09-12 22:19:27,517 basehttp 34193 123145597902848 "GET /static/admin/img/icon-no.svg HTTP/1.1" 404 179
+INFO 2025-09-12 22:19:29,686 basehttp 34193 123145581113344 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-09-12 22:19:29,696 log 34193 123145530744832 Not Found: /static/admin/img/search.svg
+WARNING 2025-09-12 22:19:29,697 log 34193 123145614692352 Not Found: /static/admin/img/icon-yes.svg
+WARNING 2025-09-12 22:19:29,697 basehttp 34193 123145530744832 "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:29,698 basehttp 34193 123145614692352 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:29,701 log 34193 123145547534336 Not Found: /static/admin/img/icon-no.svg
+WARNING 2025-09-12 22:19:29,701 basehttp 34193 123145547534336 "GET /static/admin/img/icon-no.svg HTTP/1.1" 404 179
+WARNING 2025-09-12 22:19:50,061 log 34193 123145581113344 Unauthorized: /api/evaluations/
+WARNING 2025-09-12 22:19:50,062 basehttp 34193 123145581113344 "GET /api/evaluations/ HTTP/1.1" 401 58
+INFO 2025-09-12 22:24:56,313 basehttp 34193 123145581113344 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-12 22:24:56,619 basehttp 34193 123145581113344 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:24:56,713 basehttp 34193 123145581113344 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:24:57,154 basehttp 34193 123145631481856 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 179957
+INFO 2025-09-12 22:24:57,651 basehttp 34193 123145631481856 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 173023
+INFO 2025-09-12 22:25:00,334 basehttp 34193 123145631481856 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83477
+INFO 2025-09-12 22:25:03,927 basehttp 34193 123145631481856 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:25:04,082 basehttp 34193 123145631481856 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:25:04,691 basehttp 34193 123145581113344 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 169594
+INFO 2025-09-12 22:25:05,236 basehttp 34193 123145581113344 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 177687
+WARNING 2025-09-12 22:25:06,988 log 34193 123145581113344 Not Found: /api/api/evaluations/
+WARNING 2025-09-12 22:25:06,989 basehttp 34193 123145581113344 "GET /api/api/evaluations/?page=1 HTTP/1.1" 404 179
+INFO 2025-09-12 22:29:11,589 basehttp 34193 123145530744832 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-12 22:29:11,846 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:29:11,909 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:29:12,302 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 179721
+INFO 2025-09-12 22:29:12,834 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 189756
+INFO 2025-09-12 22:29:18,132 basehttp 34193 123145547534336 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-12 22:31:23,392 basehttp 34193 123145530744832 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-12 22:31:27,864 basehttp 34193 123145530744832 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83477
+INFO 2025-09-12 22:31:34,055 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:31:34,165 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:31:34,631 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 176831
+INFO 2025-09-12 22:31:35,128 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 176328
+INFO 2025-09-12 22:31:38,080 basehttp 34193 123145547534336 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-12 22:33:36,736 basehttp 34193 123145530744832 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-12 22:33:36,993 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:33:37,073 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:33:37,442 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 176952
+INFO 2025-09-12 22:33:37,895 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 181431
+INFO 2025-09-12 22:33:39,845 basehttp 34193 123145547534336 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-12 22:43:38,720 basehttp 34193 123145530744832 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-12 22:43:39,054 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:43:39,123 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:43:39,672 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 180255
+INFO 2025-09-12 22:43:40,110 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 183539
+INFO 2025-09-12 22:43:42,943 basehttp 34193 123145547534336 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-12 22:50:04,828 basehttp 34193 123145530744832 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-12 22:50:05,114 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-12 22:50:05,171 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-12 22:50:05,586 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 187271
+INFO 2025-09-12 22:50:06,035 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 185751
+INFO 2025-09-12 22:50:08,879 basehttp 34193 123145547534336 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-13 17:04:19,171 basehttp 34193 123145530744832 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 17:04:19,480 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-13 17:04:19,540 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 17:04:20,016 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 189717
+INFO 2025-09-13 17:04:20,440 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 180846
+INFO 2025-09-13 17:04:25,497 basehttp 34193 123145547534336 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-13 17:12:27,544 basehttp 34193 123145530744832 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 17:12:27,869 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-13 17:12:27,949 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 17:12:28,519 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 190888
+INFO 2025-09-13 17:12:29,163 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 175389
+INFO 2025-09-13 17:12:32,599 basehttp 34193 123145547534336 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83477
+INFO 2025-09-13 17:12:38,620 basehttp 34193 123145547534336 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-13 17:12:38,775 basehttp 34193 123145547534336 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 17:12:39,340 basehttp 34193 123145530744832 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 174318
+INFO 2025-09-13 17:12:39,896 basehttp 34193 123145530744832 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 177969
+INFO 2025-09-13 17:12:42,629 basehttp 34193 123145530744832 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-13 17:28:54,223 basehttp 34193 123145530744832 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 17:28:54,393 basehttp 34193 123145530744832 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-13 17:28:54,430 basehttp 34193 123145530744832 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 17:28:54,706 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 168055
+INFO 2025-09-13 17:28:55,006 basehttp 34193 123145547534336 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 182132
+INFO 2025-09-13 17:28:57,573 basehttp 34193 123145547534336 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 1130
+INFO 2025-09-13 17:41:00,144 autoreload 34193 140704502378368 /Users/santiagovinan/Documents/COURSES/DJANGO/sentiment_eval_backend/api/views.py changed, reloading.
+INFO 2025-09-13 17:43:52,488 autoreload 48252 140704502378368 Watching for file changes with StatReloader
+INFO 2025-09-13 17:47:12,710 autoreload 48252 140704502378368 /Users/santiagovinan/Documents/COURSES/DJANGO/sentiment_eval_backend/api/views.py changed, reloading.
+INFO 2025-09-13 17:47:13,940 autoreload 48828 140704502378368 Watching for file changes with StatReloader
+INFO 2025-09-13 18:02:01,308 basehttp 48828 123145475796992 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 18:02:01,505 basehttp 48828 123145475796992 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-13 18:02:01,557 basehttp 48828 123145475796992 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:02:01,800 basehttp 48828 123145492586496 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 178009
+INFO 2025-09-13 18:02:02,079 basehttp 48828 123145492586496 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 181237
+INFO 2025-09-13 18:02:05,883 basehttp 48828 123145492586496 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83477
+INFO 2025-09-13 18:02:11,375 basehttp 48828 123145492586496 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 176
+INFO 2025-09-13 18:02:11,453 basehttp 48828 123145492586496 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:02:11,783 basehttp 48828 123145475796992 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 169279
+INFO 2025-09-13 18:02:12,066 basehttp 48828 123145475796992 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 181283
+INFO 2025-09-13 18:02:15,220 basehttp 48828 123145475796992 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 6767
+INFO 2025-09-13 18:03:18,767 basehttp 48828 123145475796992 "PATCH /api/evaluations/18a93b29-752a-4e32-9021-099c5edb87e9/ HTTP/1.1" 200 323
+INFO 2025-09-13 18:03:33,641 basehttp 48828 123145475796992 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 6773
+INFO 2025-09-13 18:03:56,197 basehttp 48828 123145475796992 "PATCH /api/evaluations/faf3e30b-5217-4217-9a9e-0f366d14f9e6/ HTTP/1.1" 200 379
+INFO 2025-09-13 18:04:02,206 basehttp 48828 123145475796992 "PATCH /api/evaluations/faf3e30b-5217-4217-9a9e-0f366d14f9e6/ HTTP/1.1" 200 379
+INFO 2025-09-13 18:04:08,001 basehttp 48828 123145475796992 "PATCH /api/evaluations/faf3e30b-5217-4217-9a9e-0f366d14f9e6/ HTTP/1.1" 200 379
+INFO 2025-09-13 18:04:13,532 basehttp 48828 123145475796992 "PATCH /api/evaluations/faf3e30b-5217-4217-9a9e-0f366d14f9e6/ HTTP/1.1" 200 379
+INFO 2025-09-13 18:04:20,047 basehttp 48828 123145475796992 "PATCH /api/evaluations/faf3e30b-5217-4217-9a9e-0f366d14f9e6/ HTTP/1.1" 200 379
+INFO 2025-09-13 18:04:28,392 basehttp 48828 123145475796992 "PATCH /api/evaluations/faf3e30b-5217-4217-9a9e-0f366d14f9e6/ HTTP/1.1" 200 379
+INFO 2025-09-13 18:05:36,371 basehttp 48828 123145475796992 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83477
+INFO 2025-09-13 18:05:42,962 basehttp 48828 123145475796992 "POST /api/evaluations/ HTTP/1.1" 201 323
+WARNING 2025-09-13 18:05:49,512 log 48828 123145475796992 Bad Request: /api/evaluations/
+WARNING 2025-09-13 18:05:49,512 basehttp 48828 123145475796992 "POST /api/evaluations/ HTTP/1.1" 400 79
+WARNING 2025-09-13 18:05:55,116 log 48828 123145475796992 Bad Request: /api/evaluations/
+WARNING 2025-09-13 18:05:55,117 basehttp 48828 123145475796992 "POST /api/evaluations/ HTTP/1.1" 400 79
+INFO 2025-09-13 18:06:04,254 basehttp 48828 123145475796992 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 178
+INFO 2025-09-13 18:06:04,322 basehttp 48828 123145475796992 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:06:04,638 basehttp 48828 123145492586496 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 168143
+INFO 2025-09-13 18:06:04,909 basehttp 48828 123145492586496 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 169674
+INFO 2025-09-13 18:06:09,440 basehttp 48828 123145492586496 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 9881
+INFO 2025-09-13 18:06:26,177 basehttp 48828 123145492586496 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 9881
+INFO 2025-09-13 18:13:16,055 basehttp 48828 123145492586496 "PATCH /api/evaluations/08f1b0c1-29d8-4bac-a6b8-dacc76c893c1/ HTTP/1.1" 200 327
+INFO 2025-09-13 18:14:16,138 basehttp 48828 123145492586496 "PATCH /api/evaluations/08f1b0c1-29d8-4bac-a6b8-dacc76c893c1/ HTTP/1.1" 200 327
+INFO 2025-09-13 18:14:21,779 basehttp 48828 123145492586496 "PATCH /api/evaluations/08f1b0c1-29d8-4bac-a6b8-dacc76c893c1/ HTTP/1.1" 200 327
+INFO 2025-09-13 18:16:51,471 autoreload 48828 140704502378368 /Users/santiagovinan/Documents/COURSES/DJANGO/sentiment_eval_backend/api/views.py changed, reloading.
+INFO 2025-09-13 18:16:52,910 autoreload 50907 140704502378368 Watching for file changes with StatReloader
+INFO 2025-09-13 18:17:37,936 autoreload 50907 140704502378368 /Users/santiagovinan/Documents/COURSES/DJANGO/sentiment_eval_backend/api/views.py changed, reloading.
+INFO 2025-09-13 18:17:39,336 autoreload 50975 140704502378368 Watching for file changes with StatReloader
+INFO 2025-09-13 18:18:17,117 autoreload 50975 140704502378368 /Users/santiagovinan/Documents/COURSES/DJANGO/sentiment_eval_backend/api/views.py changed, reloading.
+INFO 2025-09-13 18:18:18,150 autoreload 51023 140704502378368 Watching for file changes with StatReloader
+INFO 2025-09-13 18:18:29,845 autoreload 51023 140704502378368 /Users/santiagovinan/Documents/COURSES/DJANGO/sentiment_eval_backend/api/views.py changed, reloading.
+INFO 2025-09-13 18:18:30,492 autoreload 51053 140704502378368 Watching for file changes with StatReloader
+INFO 2025-09-13 18:25:10,262 basehttp 51053 123145451053056 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 18:25:10,471 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 216
+INFO 2025-09-13 18:25:10,519 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:25:10,771 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 181043
+INFO 2025-09-13 18:25:11,064 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 184213
+INFO 2025-09-13 18:25:13,700 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 9893
+INFO 2025-09-13 18:25:55,953 basehttp 51053 123145467842560 "PATCH /api/evaluations/08f1b0c1-29d8-4bac-a6b8-dacc76c893c1/ HTTP/1.1" 200 3095
+INFO 2025-09-13 18:25:56,022 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 9881
+INFO 2025-09-13 18:26:46,439 basehttp 51053 123145451053056 "PATCH /api/evaluations/08f1b0c1-29d8-4bac-a6b8-dacc76c893c1/ HTTP/1.1" 200 3089
+INFO 2025-09-13 18:26:46,541 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 9875
+INFO 2025-09-13 18:26:55,568 basehttp 51053 123145451053056 "PATCH /api/evaluations/08f1b0c1-29d8-4bac-a6b8-dacc76c893c1/ HTTP/1.1" 200 3107
+INFO 2025-09-13 18:26:55,662 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 9893
+INFO 2025-09-13 18:27:39,747 basehttp 51053 123145451053056 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83743
+INFO 2025-09-13 18:27:46,460 basehttp 51053 123145451053056 "POST /api/evaluations/ HTTP/1.1" 201 321
+INFO 2025-09-13 18:27:49,356 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 18:27:49,461 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:27:49,836 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 178133
+INFO 2025-09-13 18:27:50,334 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 176413
+INFO 2025-09-13 18:45:00,513 basehttp 51053 123145451053056 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83184
+INFO 2025-09-13 18:45:04,578 basehttp 51053 123145451053056 "POST /api/evaluations/ HTTP/1.1" 201 327
+INFO 2025-09-13 18:45:10,306 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 18:45:10,395 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:45:11,065 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 180293
+INFO 2025-09-13 18:45:11,363 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 166623
+INFO 2025-09-13 18:45:12,180 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 16570
+INFO 2025-09-13 18:50:09,289 basehttp 51053 123145451053056 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 18:50:09,447 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 18:50:09,487 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:50:09,739 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 176118
+INFO 2025-09-13 18:50:10,024 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 180800
+INFO 2025-09-13 18:50:13,067 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 16570
+INFO 2025-09-13 18:51:05,614 basehttp 51053 123145451053056 "PATCH /api/evaluations/6b9fd15f-d20e-4b59-b051-57fb08c670bf/ HTTP/1.1" 200 2527
+INFO 2025-09-13 18:51:05,718 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 16558
+INFO 2025-09-13 18:52:30,507 basehttp 51053 123145451053056 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83762
+INFO 2025-09-13 18:52:35,629 basehttp 51053 123145451053056 "POST /api/evaluations/ HTTP/1.1" 201 321
+INFO 2025-09-13 18:52:41,985 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 18:52:42,064 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 18:52:42,389 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 180838
+INFO 2025-09-13 18:52:42,686 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 177812
+INFO 2025-09-13 18:52:43,950 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 19205
+INFO 2025-09-13 20:45:18,070 basehttp 51053 123145451053056 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 20:45:18,334 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 20:45:18,434 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 20:45:18,947 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 172037
+INFO 2025-09-13 20:45:19,466 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 188989
+INFO 2025-09-13 20:45:22,392 basehttp 51053 123145467842560 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83895
+INFO 2025-09-13 20:45:26,313 basehttp 51053 123145467842560 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 20:45:26,421 basehttp 51053 123145467842560 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 20:45:26,916 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 179228
+INFO 2025-09-13 20:45:27,391 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 179867
+INFO 2025-09-13 20:45:28,749 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 19205
+INFO 2025-09-13 20:46:01,931 basehttp 51053 123145451053056 "PATCH /api/evaluations/97d883fd-e01f-4592-b5dc-06ac0599efde/ HTTP/1.1" 200 2652
+INFO 2025-09-13 20:46:02,072 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 19211
+INFO 2025-09-13 20:46:17,560 basehttp 51053 123145451053056 "PATCH /api/evaluations/97d883fd-e01f-4592-b5dc-06ac0599efde/ HTTP/1.1" 200 2646
+INFO 2025-09-13 20:46:17,692 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 19205
+INFO 2025-09-13 20:46:24,416 basehttp 51053 123145451053056 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 83895
+INFO 2025-09-13 20:46:29,690 basehttp 51053 123145451053056 "POST /api/evaluations/ HTTP/1.1" 201 323
+INFO 2025-09-13 20:46:32,826 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 20:46:32,929 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 379
+INFO 2025-09-13 20:46:33,439 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 170781
+INFO 2025-09-13 20:46:33,961 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 185950
+INFO 2025-09-13 20:46:35,735 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 21489
+INFO 2025-09-13 20:47:06,232 basehttp 51053 123145467842560 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 84347
+INFO 2025-09-13 20:47:27,349 basehttp 51053 123145467842560 "POST /api/evaluations/ HTTP/1.1" 201 799
+INFO 2025-09-13 20:47:30,190 basehttp 51053 123145467842560 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 20:47:30,288 basehttp 51053 123145467842560 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 380
+INFO 2025-09-13 20:47:30,911 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 184431
+INFO 2025-09-13 20:47:31,306 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 180863
+INFO 2025-09-13 20:47:33,796 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 25480
+INFO 2025-09-13 20:47:53,393 basehttp 51053 123145451053056 "PATCH /api/evaluations/8fa63ef5-af2d-4e96-88f6-e790f12c1c33/ HTTP/1.1" 200 2295
+INFO 2025-09-13 20:47:53,528 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 25492
+INFO 2025-09-13 20:48:23,612 basehttp 51053 123145451053056 "PATCH /api/evaluations/94587739-ab65-429e-a31f-8915d7f39ce9/ HTTP/1.1" 200 3990
+INFO 2025-09-13 20:48:23,753 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 25492
+INFO 2025-09-13 20:48:36,295 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 25492
+INFO 2025-09-13 20:48:37,472 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 25492
+INFO 2025-09-13 20:48:41,411 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 25492
+INFO 2025-09-13 20:49:51,923 basehttp 51053 123145451053056 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 85112
+INFO 2025-09-13 20:49:58,515 basehttp 51053 123145451053056 "POST /api/evaluations/ HTTP/1.1" 201 327
+INFO 2025-09-13 20:50:01,097 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 20:50:01,197 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 380
+INFO 2025-09-13 20:50:01,681 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 176182
+INFO 2025-09-13 20:50:02,109 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 169005
+INFO 2025-09-13 20:50:05,528 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 28437
+INFO 2025-09-13 20:50:50,584 basehttp 51053 123145467842560 "PATCH /api/evaluations/94587739-ab65-429e-a31f-8915d7f39ce9/ HTTP/1.1" 200 2562
+INFO 2025-09-13 20:50:50,746 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27009
+INFO 2025-09-13 20:51:12,308 basehttp 51053 123145467842560 "PATCH /api/evaluations/94587739-ab65-429e-a31f-8915d7f39ce9/ HTTP/1.1" 200 2580
+INFO 2025-09-13 20:51:12,450 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27027
+INFO 2025-09-13 20:51:26,734 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27027
+INFO 2025-09-13 20:54:40,273 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27027
+INFO 2025-09-13 20:56:04,061 basehttp 51053 123145467842560 "PATCH /api/evaluations/94587739-ab65-429e-a31f-8915d7f39ce9/ HTTP/1.1" 200 2568
+INFO 2025-09-13 20:56:04,199 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27015
+INFO 2025-09-13 21:06:18,495 basehttp 51053 123145451053056 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 21:06:18,753 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 21:06:18,832 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 380
+INFO 2025-09-13 21:06:19,330 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 190324
+INFO 2025-09-13 21:06:20,137 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 166329
+INFO 2025-09-13 21:06:22,621 basehttp 51053 123145451053056 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 84997
+INFO 2025-09-13 21:06:28,030 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 21:06:28,148 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 380
+INFO 2025-09-13 21:06:28,641 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 180025
+INFO 2025-09-13 21:06:29,155 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 187412
+INFO 2025-09-13 21:06:30,630 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27015
+INFO 2025-09-13 21:06:44,331 basehttp 51053 123145467842560 "PATCH /api/evaluations/94587739-ab65-429e-a31f-8915d7f39ce9/ HTTP/1.1" 200 2577
+INFO 2025-09-13 21:06:44,485 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27024
+INFO 2025-09-13 21:07:08,657 basehttp 51053 123145467842560 "PATCH /api/evaluations/94587739-ab65-429e-a31f-8915d7f39ce9/ HTTP/1.1" 200 2559
+INFO 2025-09-13 21:07:08,819 basehttp 51053 123145467842560 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 27006
+INFO 2025-09-13 21:15:33,995 basehttp 51053 123145451053056 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 21:15:34,261 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 248
+INFO 2025-09-13 21:15:34,324 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 380
+INFO 2025-09-13 21:15:34,922 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 177554
+INFO 2025-09-13 21:15:35,424 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 173435
+INFO 2025-09-13 21:15:43,761 basehttp 51053 123145467842560 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 84997
+INFO 2025-09-13 21:15:50,715 basehttp 51053 123145467842560 "POST /api/evaluations/ HTTP/1.1" 201 321
+INFO 2025-09-13 21:15:53,578 basehttp 51053 123145467842560 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 249
+INFO 2025-09-13 21:15:53,708 basehttp 51053 123145467842560 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 381
+INFO 2025-09-13 21:15:54,324 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 165350
+INFO 2025-09-13 21:15:55,300 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 188400
+INFO 2025-09-13 21:15:56,303 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 29369
+INFO 2025-09-13 21:16:16,053 basehttp 51053 123145451053056 "PATCH /api/evaluations/94587739-ab65-429e-a31f-8915d7f39ce9/ HTTP/1.1" 200 2562
+INFO 2025-09-13 21:16:16,218 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 29372
+INFO 2025-09-13 21:20:01,804 basehttp 51053 123145451053056 "POST /auth/login/ HTTP/1.1" 200 267
+INFO 2025-09-13 21:20:02,059 basehttp 51053 123145451053056 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 249
+INFO 2025-09-13 21:20:02,142 basehttp 51053 123145451053056 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 381
+INFO 2025-09-13 21:20:02,617 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 179374
+INFO 2025-09-13 21:20:03,180 basehttp 51053 123145467842560 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 186095
+INFO 2025-09-13 21:20:06,523 basehttp 51053 123145467842560 "GET /api/sentences/?page=1&page_size=50&unevaluated_only=true HTTP/1.1" 200 85595
+INFO 2025-09-13 21:20:10,547 basehttp 51053 123145467842560 "POST /api/evaluations/ HTTP/1.1" 201 321
+INFO 2025-09-13 21:20:12,550 basehttp 51053 123145467842560 "GET /api/evaluations/my_stats/ HTTP/1.1" 200 249
+INFO 2025-09-13 21:20:12,697 basehttp 51053 123145467842560 "GET /api/sessions/?evaluator_id=06ffd40e-228e-4026-b0cc-e96b68858191 HTTP/1.1" 200 381
+INFO 2025-09-13 21:20:13,181 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 170642
+INFO 2025-09-13 21:20:13,729 basehttp 51053 123145451053056 "GET /api/sentences/unevaluated/?page=1&page_size=100 HTTP/1.1" 200 179786
+INFO 2025-09-13 21:20:14,832 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 31566
+INFO 2025-09-13 21:20:48,324 basehttp 51053 123145451053056 "PATCH /api/evaluations/faf3e30b-5217-4217-9a9e-0f366d14f9e6/ HTTP/1.1" 200 3341
+INFO 2025-09-13 21:20:48,488 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 31455
+INFO 2025-09-13 21:21:22,737 basehttp 51053 123145451053056 "PATCH /api/evaluations/08f1b0c1-29d8-4bac-a6b8-dacc76c893c1/ HTTP/1.1" 200 3089
+INFO 2025-09-13 21:21:22,878 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 31437
+INFO 2025-09-13 21:21:32,893 basehttp 51053 123145451053056 "PATCH /api/evaluations/9f07b978-2ce6-4f48-ae28-d25d894d7bf2/ HTTP/1.1" 200 2211
+INFO 2025-09-13 21:21:33,033 basehttp 51053 123145451053056 "GET /api/evaluations/my_evaluations/?page=1 HTTP/1.1" 200 31455
+INFO 2025-09-13 21:22:15,421 autoreload 51053 140704502378368 /Users/santiagovinan/Documents/COURSES/DJANGO/sentiment_eval_backend/sentiment_eval/settings.py changed, reloading.
+INFO 2025-09-13 21:22:17,292 autoreload 58315 140704502378368 Watching for file changes with StatReloader
